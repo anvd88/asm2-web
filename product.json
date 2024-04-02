@@ -1,39 +1,76 @@
 [
     {
         "id": 1,
-        "name": "Product 1",
-        "price": 520,
-        "image": "images/ronaldo.webp"
+        "name": "Tien si rat pho",
+        "price": 599999,
+        "image": "images/rashford.avif"
     },
     {
         "id": 2,
-        "name": "Product 2",
-        "price": 220,
-        "image": "images/ronaldo.webp"
+        "name": "khong world cup",
+        "price": 77777777,
+        "image": "images/anh7.jpeg"
     },
     {
         "id": 3,
         "name": "Product 3",
         "price": 250,
-        "image": "images/ronaldo.webp"
+        "image": "images/rashford.avif"
     }
     ,
     {
         "id": 4,
         "name": "Product 4",
         "price": 420,
-        "image": "images/ronaldo.webp"
+        "image": "images/doping.jpeg"
     },
     {
         "id": 5,
         "name": "Product 5",
         "price": 120,
-        "image": "images/ronaldo.webp"
+        "image": "images/bruno.avif"
     },
     {
         "id": 6,
         "name": "Product 6",
         "price": 120,
-        "image": "images/ronaldo.webp"
+        "image": "images/garnacho.avif"
+    },
+    {
+        "id":7,
+        "name": "Product 6",
+        "price": 120,
+        "image": "images/holun.jpeg"
+    },
+    {
+        "id": 8,
+        "name": "Product 6",
+        "price": 120,
+        "image": "images/anhtruong.avif"
+    },
+    {
+        "id": 9,
+        "name": "Product 6",
+        "price": 120,
+        "image": "images/mainoo.avif"
+    },
+    {
+        "id": 10,
+        "name": "Product 6",
+        "price": 120,
+        "image": "images/mainoo.avif"
+    },
+    {
+        "id": 11,
+        "name": "Product 6",
+        "price": 120,
+        "image": "images/mainoo.avif"
+    },
+    {
+        "id": 12,
+        "name": "Product 6",
+        "price": 120,
+        "image": "images/mainoo.avif"
     }
+      
 ]

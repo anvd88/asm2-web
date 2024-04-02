@@ -135,3 +135,16 @@ function changeQuantity($idProduct, $type){
     // reload html view cart
     addCartToHTML();
 }
+
+
+
+window.addEventListener('scroll', function() {
+    var header = document.querySelector('.header');
+    var scrollPosition = window.scrollY;
+  
+    if (scrollPosition > 0) {
+      header.classList.add('sticky');
+    } else {
+      header.classList.remove('sticky');
+    }
+  });
