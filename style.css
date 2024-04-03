@@ -18,6 +18,7 @@ header img{
     width: 60px;
     padding-right: 50px;
 }
+
 header h1 img{
         display: flex;
         height: 100px;
@@ -28,6 +29,12 @@ header h1 img{
 .header.sticky {
     top: 0px; 
   }
+  header a {
+    font-size: 25px;
+    color: #fff;
+    font-family: MontserratSemiBold, Helvetica, sans-serif;
+    
+  }
 header{
     display: flex;
     align-items: center;
@@ -35,21 +42,25 @@ header{
     padding-bottom: 10px;
     background-color: #c00015;
     height: 100px;
-position: fixed;
-  
+    position: fixed;
   width: 100%;
   transition: top 0.3s ease;
   z-index: 2;
+  gap: 30px;
 
 }
 header .iconCart{
     position: relative;
     z-index: 1;
+    margin-right: 500px;
 }
+
 header .totalQuantity{
     position: absolute;
     top: 0;
     right: 0;
+    
+    
     font-size: x-large;
     background-color: #b31010;
     width: 40px;
@@ -61,7 +72,8 @@ header .totalQuantity{
     align-items: center;
     border-radius: 50%;
     transform: translateX(-25px);
-    /* padding-right: 50px; */
+    padding-right: 10px;
+  
 }
 .listProduct{
     display: grid;
@@ -273,8 +285,11 @@ header .totalQuantity{
   footer {
     background-color:#c00015;
     color: #fff;
-    padding: 30px 0;
+    /* padding: 30px 0 10z; */
     text-align: center;
+    height: 150px;
+    
+  
   }
   
   .footer-content {
@@ -282,14 +297,16 @@ header .totalQuantity{
     align-items: center;
     justify-content: left;
     gap: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
+   
     
   }
   
   .footer-logo img {
-    max-width: 200px;
+    max-width: 100px;
     padding-left: 100px;
     display: flex;
+    
   }
   
   .contact-info {
@@ -307,3 +324,7 @@ header .totalQuantity{
   .footer-bottom a {
     color: #fff;
   }
+ 
+
+
+
