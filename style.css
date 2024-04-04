@@ -14,6 +14,12 @@ a{
     padding-top: 200px;
     z-index: 1;
 }
+.container .title{
+    margin-bottom: 40px;
+    text-align: center;
+    margin-top: 10px;
+
+}
 header img{
     width: 60px;
     padding-right: 50px;
@@ -283,7 +289,7 @@ header .totalQuantity{
     padding: 0;
   }
   footer {
-    background-color:#c00015;
+    background-color:#2A2A2A;
     color: #fff;
     /* padding: 30px 0 10z; */
     text-align: center;
@@ -324,6 +330,80 @@ header .totalQuantity{
   .footer-bottom a {
     color: #fff;
   }
+ 
+    
+    .footer-social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        
+      }
+      
+      .footer-social ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+      }
+      
+      .footer-social li {
+        display: inline-block;
+        margin: 0 10px;
+      }
+      
+      .footer-social a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        
+        transition: background-color 0.3s ease;
+      }
+      
+      .footer-social img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        filter: grayscale(100%) brightness(200%);
+      }
+      
+      .footer-social a:hover {
+        background-color: red;
+        
+      }
+    
+        
+        .footer-social a.login,
+        .footer-social a.contact {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100px;
+          height: 40px;
+          border-radius: 20px;
+          background-color: #fff;
+          border: none;
+          transition: background-color 0.3s ease;
+          margin-right: 20px;
+          text-decoration: none;
+          color: #000;
+          margin-top: 14px;
+        }
+        
+        .footer-social a.login:hover,
+        .footer-social a.contact:hover {
+          background-color: red;
+          color: #fff;
+        }
+    
+      
+  
+ 
+  
+
  
 
 
