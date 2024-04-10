@@ -41,3 +41,33 @@ function addCartToHTML(){
     totalQuantityHTML.innerText = totalQuantity;
     totalPriceHTML.innerText =  totalPrice +' VND';
 }
+
+    
+   
+
+    document.addEventListener("DOMContentLoaded", function() {
+        // Lắng nghe sự kiện click cho nút "CHECKOUT"
+        var checkoutButton = document.querySelector(".buttonCheckout");
+        checkoutButton.addEventListener("click", function() {
+            // Lấy tên khách hàng từ input
+            var fullName = document.getElementById("name").value;
+            
+            // Hiển thị thông báo xác nhận và cảm ơn
+            alert("The order for " + fullName + " has been successfully confirmed! Thank you for your purchase.");
+
+            // Xóa dữ liệu trong các trường nhập liệu
+            document.getElementById("name").value = "";
+            document.getElementById("phone").value = "";
+            document.getElementById("address").value = "";
+            document.getElementById("country").selectedIndex = 0;
+            document.getElementById("city").selectedIndex = 0;
+
+            // Cập nhật tổng số lượng và giá trị thành 0
+            document.querySelector(".totalQuantity").textContent = "0";
+            document.querySelector(".totalPrice").textContent = "0";
+
+            // Điều hướng trang về index.html
+            window.location.href = "index.html";
+        });
+    });
+

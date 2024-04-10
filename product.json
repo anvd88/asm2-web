@@ -1,13 +1,13 @@
 [
     {
         "id": 1,
-        "name": "Tien si rat pho",
+        "name": "Product 1",
         "price": 599999,
         "image": "images/rashford.avif"
     },
     {
         "id": 2,
-        "name": "khong world cup",
+        "name": "Product 2",
         "price": 77777777,
         "image": "images/anh7.jpeg"
     },
@@ -38,37 +38,37 @@
     },
     {
         "id":7,
-        "name": "Product 6",
+        "name": "Product 7",
         "price": 120,
         "image": "images/holun.jpeg"
     },
     {
         "id": 8,
-        "name": "Product 6",
+        "name": "Product 8",
         "price": 120,
         "image": "images/anhtruong.avif"
     },
     {
         "id": 9,
-        "name": "Product 6",
+        "name": "Product 9",
         "price": 120,
         "image": "images/mainoo.avif"
     },
     {
         "id": 10,
-        "name": "3ty300trieu  aka vua co` bac.",
+        "name": "Product 10",
         "price": 330000,
-        "image": "images/IMG_1607.JPG"
+        "image": "images/ohaha.avif"
     },
     {
         "id": 11,
-        "name": "Product 6",
+        "name": "Product 11",
         "price": 120,
         "image": "images/mainoo.avif"
     },
     {
         "id": 12,
-        "name": "Product 6",
+        "name": "Product 12",
         "price": 120,
         "image": "images/mainoo.avif"
     }

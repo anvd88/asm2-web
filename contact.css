@@ -245,3 +245,9 @@
   .container form button:hover {
     background-color: #555;
   }
+  img.btec {
+    width: 200px; 
+    height: 100px; 
+    
+    
+  }

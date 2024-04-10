@@ -374,6 +374,12 @@ header .totalQuantity{
         background-color: red;
         
       }
+      img.btec {
+        width: 200px; /* Đặt chiều rộng của hình chữ nhật */
+        height: 100px; /* Đặt chiều cao của hình chữ nhật */
+        
+      }
+     
     
         
         .footer-social a.login,

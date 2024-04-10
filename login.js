@@ -53,27 +53,3 @@ signInButton.addEventListener('click', () => {
 
 
 
-// document.getElementById("login-form").addEventListener("submit", function(event) {
-   
-
-//     // Lấy giá trị người dùng nhập vào
-//     var username = document.getElementById("username").value;
-//     var password = document.getElementById("password").value;
-
-//     // Kiểm tra tên người dùng và mật khẩu
-//     if (username === "your_username" && password === "your_password") {
-//         showSuccessMessage("Đăng nhập thành công!");
-//         // Thực hiện các hành động sau khi đăng nhập thành công, ví dụ: chuyển hướng đến trang khác
-//     } else {
-//         showErrorMessage("Sai tên người dùng hoặc mật khẩu. Vui lòng thử lại.");
-//     }
-// });
-
-// function showSuccessMessage(message) {
-//     // Hiển thị thông báo thành công trên trang hoặc sử dụng các phương thức khác như SweetAlert
-//     alert(message);
-// }
-
-// function showErrorMessage(message) {
-//     // Hiển thị thông báo lỗi trên trang hoặc sử dụng các phương thức khác như SweetAlert
-//     alert(message);}

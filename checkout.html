@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payment</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="images" href="images/JnUywhEhFhQUfZu666.webp">
 </head>
 <body>
     <header class="header">
@@ -43,17 +44,17 @@
             <div class="form">
                 <div class="group">
                     <label for="name">Full Name</label>
-                    <input type="text" name="name" id="name">
+                    <input type="text" name="name" id="name" required>
                 </div>
     
                 <div class="group">
                     <label for="phone">Phone Number</label>
-                    <input type="text" name="phone" id="phone">
+                    <input type="text" name="phone" id="phone" required>
                 </div>
     
                 <div class="group">
                     <label for="address">Address</label>
-                    <input type="text" name="address" id="address">
+                    <input type="text" name="address" id="address" required>
                 </div>
     
                 <div class="group">
@@ -83,7 +84,8 @@
                     <div class="totalPrice"></div>
                 </div>
             </div>
-            <button class="buttonCheckout">CHECKOUT</button>
+            <button class="buttonCheckout" name="buttonCheckout" type="submit">CHECKOUT</button>
+            
             </div>
     </div>
 </div>
